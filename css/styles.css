@@ -1,0 +1,433 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	overflow-x: hidden;
+
+}
+body{
+    background-color:  rgb(6, 6, 32);
+}
+.nav-container{
+    background-color:  rgb(6, 6, 32);
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: auto;
+	margin-top: 10px;
+	position: fixed;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+.logo{
+	text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+
+	
+}
+
+
+.nav-link ul{
+	display: flex;
+	margin-top: 10px;
+
+}
+.nav-link ul li a{
+	margin-left: 12px;
+	margin-top: 10px;
+	text-transform: capitalize;
+	color: whitesmoke;
+}
+.button{
+	color: whitesmoke;
+	background-color: #d465ef;
+	padding: 10px;
+	border: none;
+	margin-top: 7px;
+}
+.nav{
+	
+   font-size: 30px;
+   color: white;
+   margin-top: 7px;
+}
+  
+.hero-section{
+	width: 100%;
+	/*margin-left: 40px;
+	margin-right: 40px;*/
+	background-color:darkred;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 500px;
+}
+.hero-text h3{
+	background-image: url(.././img/josh4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    color: rgb(4, 4, 22);
+    font-size: 30px;
+    margin-top: 70px;
+
+}
+.hero-text h4{
+	display: flex;
+
+}
+.footer-icon{
+	display: flex;
+	justify-content: center;
+	margin-left: 10px;
+}
+.footer-icon i{
+	margin-left: 10px;
+	color: white;
+}
+.nav-button, .nav-link{
+	display: none;
+}
+.services{
+	background-color: white;
+	width: 100%;
+	color:  rgb(6, 6, 32);
+	
+	
+}
+
+.services h4{
+	display: flex;
+	justify-content: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	
+}
+.service-text{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.graphic-head{
+	display: flex;
+	justify-content:center;
+	width: 1000px;
+	gap: 40px;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0 20px;
+	
+	
+}
+.services-con{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	
+}
+.graphic{
+	border: 2px solid beige;
+	width: 300px;
+	height: 400px;
+	padding: 10px 20px;
+}
+.graphic h3{
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+.monitor{
+	display: flex;
+	justify-content: center;
+}
+.graphic p{
+	line-height: 30px;
+}
+.port-con{
+	width: 100%;
+	background-color: rgb(4, 4, 49);
+
+
+}
+.port-con h2{
+  display: flex;
+	justify-content: center;
+	color: white;
+	font-size: medium;
+	letter-spacing: 4px;
+}
+.port-con p{
+	display: flex;
+	justify-content: center;
+	color: white;font-size: 40px;
+	line-height: 45px;
+	text-transform: capitalize;
+
+}
+.port-con h5{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: white;
+	text-transform: capitalize;
+}
+.img-con{
+	
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	
+}
+.img-head{
+
+	width: 850px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+
+
+}
+.img2{
+	width: 350px;
+	height: 300px;
+}
+.btn{
+	display: flex;
+	background-color: white;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.button2{
+	border: 1px solid rgb(4, 4, 42);
+	padding: 10px;
+	margin-top: 20px;
+	text-transform: capitalize;
+	background-color: azure;
+	color: rgb(54, 54, 181);
+}
+.about-me{
+	display: flex;
+	justify-content: center;
+}
+.about-text{
+	align-self: center;
+	
+}
+.about-text h2{
+	font-size: 50px;
+	text-transform: capitalize;
+	color:black;
+	margin-bottom: 10px;
+}
+.btn2{
+	margin-top: 15px;
+}
+.button3{
+	padding: 10px;
+	background-color: rgb(79, 79, 187);
+	color: white;
+	border: none;
+}
+.about-me{
+	background-color: white;
+}
+.about-text p{
+	color: black;
+}
+#project-con{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 700px;
+	background-color: white;
+}
+.point{
+  width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	
+}
+.project{
+
+	width: 300px ;
+	height: 200px;
+	border: 1px solid rgb(129, 121, 121);
+	align-self: center;
+}
+.project p{
+	font-size: 13px;
+	display: flex;
+	justify-content: center;
+  line-height: 90px;
+	color: rgb(14, 11, 11);
+}
+.project h2{
+	display: flex;
+	justify-content: center;
+	line-height: 100px;
+	font-size: 50px;
+	color: blue;
+}
+.quote{
+	display: flex;
+	justify-content: center;
+	background-color: rgb(6, 6, 32);
+	color: white;
+	height: 500px;
+}
+.quote-text{
+	width: 500px;
+	align-self: center;
+	
+}
+
+.quote-text i{
+	display: flex;
+	justify-content: center;
+}
+.quote-img{
+	width: 50px;
+	border-radius: 50px;
+}
+.quote-img2{
+	display: flex;
+	justify-content: center;
+}
+.business h3{
+	display: flex;
+	justify-content: center;
+}
+.information{
+	display: flex;
+	justify-content: center;
+	color: white;
+	height: 200px;
+	background-color: rgb(6, 6, 32);
+}
+.info{
+	width: 400px;
+	line-height: 35px;
+}
+.info h2{
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.btn5{
+	display: flex;
+	justify-content: center;
+}
+.button5{
+	padding: 15px;
+	color: white;
+	background-color: blue;
+	border: none;
+}
+footer{
+	margin: 0 20px;
+}
+.footer-nav{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	width: 80%;
+	background-color:  rgb(6, 6, 32);
+	flex-wrap: wrap;
+	margin: 0 20px;
+	
+}
+.foote{
+	display: flex;
+	justify-content: flex-start;
+}
+.foote ul{
+	margin: auto;
+	display: flex;
+	width: 100%;
+	background-color:  rgb(6, 6, 32);
+
+}
+.foote ul li a{
+	color: white;
+	margin-right: 20px;
+}
+.fot-icon{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.fot-icon ul{
+	display: flex;
+	width: 100%;
+	margin: auto;
+}
+.twi{
+	color: white;
+	margin-right: 15px;
+	width: 20px;
+	padding: 10px 30px 5px 10px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.nav-button{
+		display: block;
+	}
+	.nav-button, .nav-link{
+	display: block;
+    }
+    .nav{
+    	display: none;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+	.nav-button, .nav-link{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+}
+
